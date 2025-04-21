@@ -18,27 +18,27 @@ const faqIntegrations = faqData.filter((faq) => faq.category === 'integrations')
 import faqImage1 from '../assets/faq/faq-01.png'
 // - SEO
 const SEO = {
-	title: 'Foxi | Get Your Questions Answered with a Smile',
+	title: 'Rferz | Dapatkan pertanyaan Anda dijawab sambil tersenyum',
 	description:
-		'Dive into the Foxi FAQ Funhouse to get answers to all your questions about pricing, integrations, features, and more. Discover how Foxi can make your work life more productive and enjoyable.'
+		'Menyelam ke funhouse FAQ Rferz untuk mendapatkan jawaban atas semua pertanyaan Anda tentang penetapan harga, integrasi, fitur, dan banyak lagi. Temukan bagaimana Rferz dapat membuat kehidupan kerja Anda lebih produktif dan menyenangkan.'
 }
 // - Page Header
 const header = {
-	title: 'Get Answers to Your <strong>Foxi</strong> Questions.',
-	text: 'Find answers to common questions about Foxi '
+	title: 'Dapatkan jawaban untuk Anda <strong>Rferz</strong> Pertanyaan.',
+	text: 'Temukan jawaban atas pertanyaan umum tentang Rferz'
 }
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
 	<Hero title={header.title} text={header.text} />
 	<FAQ
-		title="Understanding Our Pricing Plans"
-		text="Get all the details on Foxi’s pricing plans. Learn about the costs, discounts, and subscription options to find the best plan that fits your needs and budget."
+		title="Memahami rencana penetapan harga kami"
+		text="Dapatkan semua detail tentang rencana harga Rferz. Pelajari tentang biaya, diskon, dan opsi berlangganan untuk menemukan paket terbaik yang sesuai dengan kebutuhan dan anggaran Anda."
 		data={faqPricing}
 	/>
 	<TextImage
-		title="Why Foxi’s Pricing Plans Offer Great Value"
-		text="At Foxi, we believe in providing exceptional value at every price point. Our pricing plans are designed to cater to a variety of needs, from individuals and small teams to large enterprises. Each plan includes access to our powerful features, seamless integrations, and top-notch customer support. "
+		title="Mengapa Paket Harga Rferz Menawarkan Nilai Besar"
+		text="Di Rferz, kami percaya dalam memberikan nilai luar biasa di setiap titik harga. Rencana penetapan harga kami dirancang untuk memenuhi berbagai kebutuhan, dari individu dan tim kecil hingga perusahaan besar. Setiap rencana. "
 		image={faqImage1}
 		mobileImage={faqImage1}
 		imagePosition="left"
@@ -46,8 +46,8 @@ const header = {
 		classes="bg-neutral-50 dark:bg-neutral-900 lg:!py-64"
 	/>
 	<FAQ
-		title="Integrations Made Easy"
-		text="Discover how Foxi seamlessly integrates with your favorite tools and platforms. From Google Calendar to Slack, find out how to connect and enhance your productivity with powerful integrations."
+		title="Integrasi menjadi mudah"
+		text="Temukan bagaimana Rferz dengan mulus terintegrasi dengan alat dan platform favorit Anda. Dari Kalender Google ke Slack, cari tahu cara menghubungkan dan meningkatkan produktivitas Anda dengan integrasi yang kuat."
 		data={faqIntegrations}
 	/>
 	<CTA />
