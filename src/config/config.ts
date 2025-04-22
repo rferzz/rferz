@@ -21,9 +21,9 @@ export interface Config {
 }
 
 export const configData: Config = {
-	siteTitle: 'Foxi. Tailwind CSS Astro Starter Kit oleh Oxygenna',
+	siteTitle: 'Rferz X Hu Tao',
 	siteDescription:
-		'Foxi is a design and development agency that specializes in creating beautiful and functional websites.',
+		'W Rferz 🎁. Welcome Di Website Rferz » Felix',
 	ogImage: '/og.jpg',
 	logo: {
 		src: '/logo.svg',
