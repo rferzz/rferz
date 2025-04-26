@@ -3,7 +3,7 @@ title: 'Foxi Mobile App Launch'
 pubDate: 2024-04-05T05:00:00Z
 description: 'We have rolled out new security updates to keep your data safe and secure. Learn more about our latest security enhancements and how they protect you.'
 author: 'Eleni K'
-image: 'assets/20250421_191206.jpg'
+image: 'blog/20250421_191206.jpg'
 tags: ['app', 'announcement']
 ---
 
